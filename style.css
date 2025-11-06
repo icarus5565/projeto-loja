@@ -1,9 +1,23 @@
-body{
+*{
+    background-color: #1a1a1a;
+    padding: 0;
+    margin: 0;
 
-    background-color: #1a1a1a !important;
 }
+
 
 #banner{
     height: 400px;
     width: 800px;
+}
+li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+#logo{
+
+    height: 100px;
+    width: 100;
 }
