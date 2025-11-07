@@ -14,6 +14,19 @@ li a{
     text-decoration: none;
     color: white;
     font-size: 20px;
+    padding: 20px;
+
+}
+
+ul{
+    display: flex; /*ativa a propriedade de alinhamento*/
+    flex-direction: row; /*coloca os ele*/
+}
+
+li{
+
+list-style: none; /*remove os pontoa*/
+
 }
 
 #logo{
