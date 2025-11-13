@@ -8,8 +8,11 @@
 
 .banner{
     height: 400px;
-    width: 800px;
-    
+    width: 850px;
+    background-image: url("./assents/banner.png"); /*ele adiciona uma imagem de fundo*/
+    background-repeat:no-repeat ;
+    background-size: cover;
+
 }
 li a{
     text-decoration: none;
@@ -33,6 +36,7 @@ nav{
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
 
 }
 
@@ -41,4 +45,9 @@ nav{
 
     height: 100px;
     width: 100;
+}
+
+.bi{
+     font-size: 35px;
+     color: #4c544c;
 }
