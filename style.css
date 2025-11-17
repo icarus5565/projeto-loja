@@ -51,6 +51,7 @@ nav{
 
     height: 100px;
     width: 100;
+    
 }
 
 .bi{
@@ -86,3 +87,16 @@ nav{
 
 }
 
+.banner-estrutura{
+    
+    width: 220px;
+    
+    
+}
+
+.section-banner
+{
+    display: flex;
+    justify-content: center;
+    
+}
