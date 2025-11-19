@@ -131,7 +131,7 @@ nav{
 .card-texto{
     display: flex;
     justify-content: center;
-    
+    flex-direction: column;
 }
 .card{
     width: 250px;
@@ -141,7 +141,7 @@ nav{
     height: 15px;
     width: 15px;
     border-radius: 100%; /*deixar a borda redonda*/
-    
+    padding: 5px;
 
 }
 .vermelho{
@@ -156,3 +156,69 @@ nav{
     background-color: orange;
 }
 
+.caixa-cores{
+
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    
+
+}
+.carousel{
+
+   display: flex;
+   justify-content:center;
+   align-items: center;
+   flex-direction: row;
+   gap: 20px;
+
+
+}
+
+
+body
+{ background-color: #1a1a1a;}
+
+nav{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 800px;
+    width: 300px;
+    margin-inline-start: 30px;
+}
+
+.texto-xbox{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px;
+    height: 20px;
+    width: 250px;
+
+    
+    
+    
+}
+.butão{
+
+   width: 120px;
+   height: 30px;
+   color: #ffffff;
+   border-radius: 55px; /*deixa a borda redonda*/
+   border: none; /*serve para remover a borda*/
+   font-weight: bold;
+   font-size: 19px;
+   background-color: #333333;
+   margin: 20px;
+   flex-direction: column;
+   margin-inline-start: 200px;
+}
+.estrutura-xbox{
+    width: 800px;
+    height: 200px;
+    padding: 30px;
+   
+}
