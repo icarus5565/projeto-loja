@@ -280,3 +280,47 @@ nav {
   height: 120px;
   margin: 20px;
 }
+
+.footer{
+background-color: #111;
+padding: 80px 40px 50px;
+color:#979797;
+font-size: 14px;
+margin-top: 120px;
+}
+
+.container-footer{
+  max-width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 60px;
+}
+
+.footer-col h4{
+ color: #999999;
+ font-size: 18px;
+ margin-bottom: 28px;
+ font-weight: 600;
+
+}
+
+.texto-footer{
+  margin:45px 0;
+  color: #d4d3d3;
+  font-size: 13px;
+
+
+}
+
+.footer-icons-footer{
+   text-align: center;
+
+   
+
+}
+
+
+
+
