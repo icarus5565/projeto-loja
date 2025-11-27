@@ -1,7 +1,9 @@
 * {
+
   padding: 0%;
   margin: 0%;
 }
+
 
 body {
   background-color: #1a1a1a;
@@ -17,9 +19,11 @@ body {
   display: flex;
   align-items: center;
 
+
 }
 
 li a {
+
   text-decoration: none;
   color: #ffffff;
   font-size: 20px;
@@ -45,7 +49,7 @@ nav {
   justify-content: space-between;
 }
 
-#logo {
+.logo {
   height: 120px;
   width: 120px;
 }
@@ -53,11 +57,13 @@ nav {
 .bi {
   font-size: 40px;
   color: #4c544c;
+
 }
 
 .texto-banner {
   color: #ffffff;
   font-size: 25px;
+
 }
 
 .btn {
@@ -115,17 +121,20 @@ nav {
   height: 430px;
 }
 
+
 .card-texto {
   justify-content: center;
   display: flex;
   flex-direction: column;
   align-items: center;
+
 }
 
 .cores {
   height: 20px;
   width: 15px;
   border-radius: 50%;
+
 }
 
 .vermelho {
@@ -162,19 +171,23 @@ nav {
 .card2 {
   width: 250px;
   height: 430px;
+
 }
+
 
 .card-texto2 {
   justify-content: center;
   display: flex;
   flex-direction: column;
   align-items: center;
+
 }
 
 .cores2 {
   height: 20px;
   width: 15px;
   border-radius: 50%;
+
 }
 
 .vermelho {
@@ -210,7 +223,9 @@ nav {
 .card3 {
   width: 250px;
   height: 430px;
+
 }
+
 
 .card-texto3 {
   justify-content: center;
@@ -224,6 +239,7 @@ nav {
   height: 20px;
   width: 15px;
   border-radius: 50%;
+
 }
 
 .vermelho {
@@ -253,7 +269,7 @@ nav {
   padding-bottom: 50px;
 }
 
-.xbox {
+.banner-xbox {
   height: 450px;
   width: 850px;
   background-image: url("./assents/x-box.png");
@@ -261,66 +277,136 @@ nav {
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
-  justify-content: end;
-
+  align-items: center;
 }
 
-.texto-xbox {
+.texto-xbox-banner {
   color: #ffffff;
-  font-size: 30px;
+  font-size: 25px;
+  display: flex;
   font-weight: 700;
 
 }
 
-.caixa-xbox {
+.btn2 {
+  height: 45px;
+  width: 115px;
+  border-radius: 55px;
+  /*Deixa a  borda redonda*/
+  border: none;
+  /*Serve para remover a borda*/
+  color: #ffffff;
+  font-size: 19px;
+  background-color: #333333;
+  margin: 10px;
+  /*distancia o botao do texto*/
+}
+
+.section-xbox {
+  display: flex;
+  justify-content: center;
+  /* Centraliza horizontalmente */
+  padding: 30px 0;
+  /* Mantém espaço ao redor */
+}
+
+
+.banner-xbox {
   display: flex;
   flex-direction: column;
+  align-items: end;
+  text-align: center;
+  justify-content: baseline;
+
+}
+
+.banner-xbox-estrutura {
+  width: 350px;
+  margin: 40px;
+
+}
+
+footer {
+  color: #b3b3b3;
+  padding: 40px;
+  text-align: center;
+}
+
+.footer-rodape {
+  display: flex;
+  justify-content: baseline;
+  gap: 150px;
+  margin-bottom: 10px;
+
+
+
+}
+
+.para-apertar-link {
+  text-align: left;
+  color: #f5f2f2e5;
+  font-size: 20px;
+  margin-bottom: 0px;
+  font-weight: bold;
+}
+
+
+
+
+.texto-maior {
+  max-width: 900px;
+  margin: 0 auto 30px auto;
+  text-align: left;
+  font-size: 15px;
+  line-height: 1.6;
+  color: #ffffff;
+}
+
+.rede-social {
+  display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
-  height: 120px;
-  margin: 20px;
+  gap: 15px;
+
 }
 
-.footer{
-background-color: #111;
-padding: 80px 40px 50px;
-color:#979797;
-font-size: 14px;
-margin-top: 120px;
+.social-icons a {
+  text-decoration: none;
+  margin: 0 10px;
 }
 
-.container-footer{
-  max-width: 1300px;
-  margin: 0 auto;
+.social-icons .bi {
+  font-size: 24px;
+  color: #b3b3b3;
+}
+
+.social-icons {
+  color: #ffffff;
+}
+
+.politicas-links {
+  font-size: 14px;
+}
+
+.politicas-links a {
+  text-decoration: none;
+  transition: color 0.3s;
+  color: #ffffff;
+  margin: 10px;
+}
+
+.logo02 {
   display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 60px;
+  align-items: end;
+  width: 10px;
+  
 }
 
-.footer-col h4{
- color: #999999;
- font-size: 18px;
- margin-bottom: 28px;
- font-weight: 600;
-
+.titulo-footer {
+  color: #464242;
 }
 
-.texto-footer{
-  margin:45px 0;
-  color: #d4d3d3;
-  font-size: 13px;
-
-
+.caixa-maior {
+  background-color: #2b2b2b;
 }
-
-.footer-icons-footer{
-   text-align: center;
-
-   
-
-}
-
-
-
-
